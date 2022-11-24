@@ -5,6 +5,7 @@ import { CoursesComponent } from './courses/courses.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
 const routes: Routes = [
+  {path:'',redirectTo:'/courses',pathMatch:'full'},
   {path:'courses',component:CoursesComponent},
   {path:'contact',component:ContactComponent},
   {path:'**',component:PageNotFoundComponent}
