@@ -13,7 +13,7 @@ const routes: Routes = [
   //to display the route parameter
   {path:'courses/:id',component:CoursesDetailComponent},
   {path:'contact',component:ContactComponent,
-
+//Child route
   children:[
     {path:'contact-a',component:ContactAComponent},
     {path:'contact-b',component:ContactBComponent}
