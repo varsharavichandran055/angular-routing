@@ -10,6 +10,7 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
 const routes: Routes = [
   {path:'',redirectTo:'/courses',pathMatch:'full'},
   {path:'courses',component:CoursesComponent},
+  //to display the route parameter
   {path:'courses/:id',component:CoursesDetailComponent},
   {path:'contact',component:ContactComponent,
 
