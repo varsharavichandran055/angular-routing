@@ -7,6 +7,8 @@ import { CoursesComponent } from './courses/courses.component';
 import { ContactComponent } from './contact/contact.component';
 import { CoursesDetailComponent } from './courses-detail/courses-detail.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { ContactAComponent } from './contact-a/contact-a.component';
+import { ContactBComponent } from './contact-b/contact-b.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
     CoursesComponent,
     ContactComponent,
     CoursesDetailComponent,
-    PageNotFoundComponent
+    PageNotFoundComponent,
+    ContactAComponent,
+    ContactBComponent
   ],
   imports: [
     BrowserModule,
